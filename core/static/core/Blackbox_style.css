@@ -43,6 +43,12 @@ body {
 
 nav {
 	font-family: Henny Penny;
+	color: navy;
+	text-align: center;
+}
+
+nav li {
+    list-style-type: none;
 }
 
 

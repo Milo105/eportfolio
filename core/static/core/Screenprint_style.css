@@ -48,6 +48,11 @@ nav {
 	text-align: center;
 }
 
+nav li {
+   list-style-type: none;
+
+}
+
 h1{
 	font-family: Henny Penny;
 	color: navy;
