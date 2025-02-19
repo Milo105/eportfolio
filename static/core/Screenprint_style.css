@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Iceland&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Girassol&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Tint&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Geo:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap');
+@import url('https://fonts.googleapis.com/css2 family=Fascinate+Inline&family=Henny+Penny&display=swap');
+
+@keyframes example {
+  0%   {color:red; font-family: geo; }
+  10%  {color:teal; font-family: iceland;  }
+  20%  {color:blue; font-family: girassol; }
+  30%  {color:green; font-family: tilt prism;  }
+  40% {color:red; font-family: geo; }
+  50%   {color:darkgreen; font-family: tilt prism; }
+  60%  {color:darkblue; font-family: girassol; }
+  70%  {color:lightpurple; font-family: electrolize;  }
+  80%  {color:darkteal; font-family: iceland;  }
+  90%  {color:purple; font-family: electrolize;  }
+  100%  {color:darkred; font-family: geo;  }
+
+}
+
+/* The element to apply the animation to */
+#tilt {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  animation-name: example;
+  animation-duration: 7s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+
+.centered {
+	display: block;
+	margin: auto;
+}
+
+body {
+	max-width: 750px;
+	margin: auto;
+
+}
+
+nav {
+	font-family: Bungee Tint;
+	text-align: center;
+}
+
+h1{
+	font-family: Henny Penny;
+	color: navy;
+	text-align: center;
+}
+h2 {
+  	color: blue;
+	font-family: Electrolize;
+	text-align: center;
+}
+
+h3 {
+	font-family: Girassol;
+	text-align: center;
+	color: darkblue;
+}
+
+h4 {
+	font-family: electrolize;
+}
+
+
+
+
+.iceland {
+	font-family: Arial;
+	font-size: 18px;
+}
+
+th, td {
+  padding: 8px;
+  text-align: center;
+  border-bottom: 1px solid #DDD;
+}
+
+td:hover, nth-child, th:hover, nth-child {
+  background-color: rgba(3, 252, 182, 0.7);
+}
+
+.centered {
+	display: block;
+}
+
+
+tr:hover {background-color: rgba(166, 237, 217, 0.7);}

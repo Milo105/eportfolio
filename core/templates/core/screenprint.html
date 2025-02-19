@@ -1,0 +1,82 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang=en>
+    <head>
+    	<meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Your Name">
+        <title>Milo's Screenprinting Project</title>
+        <link rel="stylesheet" href="{% static 'core/Screenprint_style.css' %}">
+ 	<style>
+	* {
+	  box-sizing: border-box;
+	}
+
+	.column {
+	  display: flex;
+	}
+
+	.row {
+ 	 flex: 50%;
+ 	 padding: 5px;
+	}
+	</style>
+    </head>
+	<body>
+		<nav>
+			<ul>
+				<li><a href="blackbox" > Blackbox Investigation </a></li>
+			</ul>
+		</nav>
+
+
+
+        <h1>Steps to Screenprinting</h1>
+	<h2>Step 1</h2>
+		<p> 	<b> The first step </b> of this project was finding inspiration from famous posters and screen printings. This step mostly consisted of reflecting on how symbolism, color, perspective, and other things were used to convey a message. It helped me pick colors and meaning for my own screen printing. I got the idea for the text “The Jazz Standard” as a play on words, mimicking the gold standard and such. It is a play on words because a jazz standard is simply any famous jazz song that is often called at jams. Jazz is also all about improvisation, so the jazz standard sort of means adapt and improvise as you go through life. It's rather niche, but I designed this project for myself so I put little to no effort into making it “user friendly”. I wanted to use a piano because it represents me playing jazz and works well as a large black and white object. </p>
+
+	<h2>Step 2</h2>
+		<p>	<b> The second step </b> was taking photos of some part of us in the physical world. I found it difficult to pick what real world photo I wanted and the angle and such. The real world photo was the foundation of everything else we did in the project, so it took a good amount of deliberation before I decided what I wanted. I ended up choosing a photo of just my hands. I felt that my hands were all that was needed as I wanted to show that what you are making is more important than how you look. The photos turned out ok but I was disappointed at the limitations of shooting in the classroom. I originally planned to have my hands on my piano keyboard which would make it look like my hands were actually pressing the keys down. </p>
+		<img class="centered" src="{% static 'core/Hands_Photo.JPG' %}" width="500">
+
+	<h2>Step 3</h2>
+		<p>	<b> The third step </b> was to manipulate the photo in photoshop using filters and the like. We first learned how to select objects in a photo, allowing me to take my hands from the photo and arrange them onto a piano. The piano image I found was not fully black and white, so I used a threshold filter to make it fully black and white. I used a fill tool to change the color of my hands and the text to gold, which I thought was a nice contrast to the black piano. Managing layers was difficult but simple once they were all named correctly. I found this part of the project the most fun because it was the step we had the most freedom to elaborate on our images. </p>
+		<div class="column">
+  <div class="row">
+    <img src="{% static 'core/Piano_Image.png' %}" alt="" style="width:100%">
+  </div>
+  <div class="row">
+    <img src="{% static 'core/Image_Hands_Text.png' %}" alt="" style="width:100%">
+  </div>
+</div>
+
+	<h2>Step 4</h2>
+		<p>	<b> The fourth step </b> was to measure and cut wood for the frame. Measuring the frame was very easy, the difficult part was cutting. Cutting involved learning how to use a saw we had never used before, which could be stressful to some as it involved some real danger. I have used saws before, but for those who hadn't it might have been a scarier process. Waiting for a turn at the saw ended up being the most work-halting part of this step. </p>
+		<img class="centered" src="{% static 'core/Screenprint_Frame.JPG' %}" height="500" >
+
+	<h2>Step 5</h2>
+		<p>	<b> The fifth step </b> was stretching a mesh over our frame and staple on said mesh. This took some time to get the hang of, but once I had I was able to do it much more quickly. It required two people to accomplish, one to stretch the mesh and one to use the staple gun. The last part of this step was taping over the exposed staples in the wood. </p>
+		<img class="centered" src="{% static 'core/Frame_Mesh.JPG' %}" height="500">
+
+	<h2>Step 6</h2>
+		<p>	<b> The sixth step </b> was cutting vinyl to size and sending an image of each layer of a different color to a machine that cut out the shapes. Then we uploaded our png file of one color of our design to a program that let us upload to the cutting machine to cut out the shapes. We had to make sure to mirror the image, because we ended up flipping it when printing. After the objects were cut out, we used a small pick to remove vinyl that was where we wanted color when printing. </p>
+		<img class="centered" src="{% static 'core/Peeled_Vinyl.JPG' %}" width="500">
+
+	<h2>Step 7</h2>
+		<p>	<b> The seventh step </b> ironing the vinyl onto the mesh. We had to make sure that the shiny side was up when ironing and make sure the vinyl was fully melted. After that, we peeled off the plastic layer that made the shiny side shiny. Finally, we added tape around the edges, making sure they went up the sides of the frame so the paint we added could easily be scraped out. </p>
+		<img class="centered" src="{% static 'core/Piano_Screen.JPG' %}" width="500">
+	<h2>Step 8</h2>
+        	<p>	<b> The eighth step </b> was to add the paint and print on paper, fabric, and cardboard. As I had two colors, I had to line the prints up, which proved almost impossible. I only had one print on paper that was lined up correctly, the prints on fabric and cardboard were off their mark by a considerable margin. </p>
+		<img class="centered" src="{% static 'core/Paper_Print.JPG' %}" height="500">
+
+<h3> Twentieth Century Skill </h3>
+	<p>	The twentieth century skill I used most in this project was creativity and innovation, as I had to come up with a design and figure out how to make it happen. I also had to pick colors and what the text said, so overall this project gave a lot of freedom in all parts of it. This freedom required creativity and innovation, and allowed me to demonstrate originality in my work. </p>
+
+   <marquee height=100px truespeed=truespeed behavior="alternate" direction="left" scrollamount="1" scrolldelay=10" loop=" " >
+	<p id=tilt> Milo</p>
+</marquee>
+</marquee>
+    </body>
+</html>
+
